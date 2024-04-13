@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.volviendo_a_android.R
 import com.example.volviendo_a_android.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
     private var _binding: FragmentPalmistryBinding? = null
